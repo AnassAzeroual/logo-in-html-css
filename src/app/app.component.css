@@ -1,0 +1,86 @@
+.main-container{
+  border: 1px solid;
+  position: relative;
+  width: 290px
+}
+
+
+.dash{
+  border: 1px solid red;
+  width: 247px;
+  height: 50px;
+  margin: 20px;
+  z-index: 0;
+}
+.dash .dash_hide1{
+    background: white;
+    width: 27%;
+    height: 100%;
+    transform: translateX(76px);
+    border-top-left-radius: 89%;
+    z-index: 2
+}
+
+.dash .dash_hide2{
+    background: white;
+    width: 27%;
+    height: 100%;
+    transform: translate(128px, -50.5px);
+    z-index: 2;
+}
+
+.circle1{
+  border: 1px solid red;
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(20px, -216px);
+    z-index: -1;
+}
+
+.circle2{
+  border: 1px solid red;
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(90px, -216px);
+    z-index: -1;
+}
+
+.circle3{
+  border: 1px solid red;
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(80px, -144px);
+}
+
+.circle4{
+  border: 1px solid red;
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(145px, -144px);
+}
+
+.circle5{
+  border: 1px solid red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(90px, -165px);
+}
+
+.circle6{
+  border: 1px solid red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(182px, -93px);
+}
